@@ -4,7 +4,7 @@ get '/' do
   message
 end
 
-get '/simulate_work' do
+get '/work' do
   message + calculate_number
 end
 
@@ -13,7 +13,7 @@ def message
   [
     '<h1>Hello Swiss Engineering</h1>',
     "<p>It is #{Time.now}</p>",
-    "<p><a href='/simulate_work?power=#{power}'>Calculate 2 ^ #{power}</a>",
+    "<p><a href='/work?power=#{power}'>Calculate 2 ^ #{power}</a>",
   ].join
 end
 
