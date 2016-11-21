@@ -1,1 +1,1 @@
-locust --host=https://sheltered-caverns-90185.herokuapp.com -f ./locustfile.py
+locust --host=https://demo-test-cloud.herokuapp.com -f ./locustfile.py
