@@ -21,5 +21,5 @@ def calculate_number
   x = 1
   power = params['power'].to_i
   power.times { x = x * 2 }
-  "<p>2^#{power} is #{x}</p>"
+  "<p style='word-wrap:break-word;'>2^#{power} is #{x}</p>"
 end
