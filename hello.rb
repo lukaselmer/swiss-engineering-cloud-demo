@@ -11,6 +11,6 @@ end
 
 get '/simulate_work' do
   x=1
-  20_000.times { x *= 2 }
-  "2^20_000 is #{x}"
+  5_000.times { x *= 2 }
+  "2^5_000 is #{x}"
 end
