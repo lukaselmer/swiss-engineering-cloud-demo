@@ -5,6 +5,6 @@ get '/' do
 end
 
 get '/sleep' do
-  sleep(0.5)
+  sleep(0.2)
   "<h1>Good morning</h1><p>I just slept for 0.5 seconds.</p>"
 end
