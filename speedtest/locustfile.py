@@ -2,7 +2,7 @@ from locust import HttpLocust, TaskSet
 
 
 def index(l):
-    l.client.get("/simulate_work")
+    l.client.get("/work")
 
 class UserBehavior(TaskSet):
     tasks = {index: 1}
