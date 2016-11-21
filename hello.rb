@@ -9,7 +9,7 @@ get '/sleep' do
   "<h1>Good morning</h1><p>I just slept for 0.5 seconds.</p>"
 end
 
-get 'simulate_work' do
+get '/simulate_work' do
   x=1
   200_000.times { x *= 2 }
   "2^200_000 is #{x}"
